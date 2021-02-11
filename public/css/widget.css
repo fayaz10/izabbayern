@@ -1,0 +1,219 @@
+/**
+=============================================================
+[Main Stylesheet]
+
+Template:     Muslim Centeric
+Version:      1.0
+Created:      08.20.2019
+Primary use:  Muslim Centeric and Multipurpose Template
+
+@Author: kode4everyone
+
+* This file contains the styling for the actual theme, this
+is the file you need to edit to change the look of the
+theme.
+
+====================[Table of contents]======================
+
+* 1.0 - Sidebar css start
+
+[Color codes]
+
+Background:	#ffffff (White)
+Content:	#777777 (Light Gray)
+Header h1:	#333333 (Grey Black)
+Header h2:	#333333 (Black)
+Footer:		#939393 (Gray)
+
+a (standard):	#343434 (black)
+a (visited):	#1b8bf9 (Lime)
+a (active):	#1b8bf9 (Lime)
+
+[Typography]
+  
+Body copy:		15px/ 'PT Sans', sans-serif;
+Headers:		'Roboto Slab', sans-serif;
+Input, textarea:	'PT Sans', sans-serif;
+
+=============================================================
+**/
+
+/*
+  ==============================================================
+    	Sidebar css start
+  ==============================================================
+*/
+.sidebar_categories li,
+.sidebar_categories,
+.sidebar_text,
+.sidebar{
+	float: left;
+	width: 100%;
+}
+.sidebar_text{
+	padding: 25px 30px;
+	background-color: #fafafa;
+}
+.sidebar_categories li,
+.sidebar_categories,
+.fa_sidebar_text,
+.sidebar{
+	float: right;
+	width: 100%;
+}
+
+.fa_sidebar_text{
+	padding: 25px 30px;
+	background-color: #fafafa;
+	text-align: right;
+}
+.sidebar_title{
+	margin:0px 0px 20px;
+	font-weight: 600;
+}
+.sidebar_categories li{
+	padding: 10px 0px;
+	border-bottom: 1px solid #d7d7d7; 
+}
+.latest_news li:first-child,
+.sidebar_categories li:first-child{
+	padding-top: 0px;
+}
+.latest_news li:last-child,
+.sidebar_categories li:last-child{
+	padding-bottom: 0px;
+	border-bottom: none;
+}
+.sidebar_categories li a{
+	display: block;
+	font-size: 15px;
+	color:#777777;
+}
+/*sidebar info start*/
+.sidebar_info_list,
+.sidebar_info li,
+.sidebar_info{
+	float: left;
+	width: 100%;
+}
+.sidebar_info li{
+	margin-bottom: 17px;
+}
+.sidebar_info li:last-child{
+	margin-bottom: 0px;
+}
+.sidebar_info_list span{
+	float: left;
+	width: auto;
+	font-size: 18px;
+	margin-top: 5px;
+}
+.fa_sidebar_info_list span{
+	float: right;
+	width: auto;
+	font-size: 18px;
+	margin-top: 5px;
+	margin-left: 20px;
+}
+.sidebar_info_text{
+	overflow: hidden;
+	padding-left: 24px;
+}
+.sidebar_info_text p{
+	margin-bottom: 0px;
+}
+.sidebar_info_text a{
+	display: block;
+	font-size: 15px;
+	color:#777777;
+}
+/*latest news start*/
+.rating_colume,
+.latest_news_fig,
+.latest_news li,
+.latest_news{
+	float: left;
+	width: 100%;
+}
+.latest_news li{
+	padding:15px 0px;
+	border-bottom: 1px solid #d7d7d7;
+}
+.latest_news li:last-child{
+	padding-bottom: 5px;
+}
+.latest_news_fig figure{
+	width: auto;
+}
+.latest_news_text{
+	overflow: hidden;
+	padding-left: 18px;
+}
+.latest_news_text h6{
+	margin:0px 0px 10px;
+	font-size: 15px;
+}
+.rating_colume > a{
+	float: left;
+	color: #666666;
+}
+.rating_colume > a i{
+	margin-right: 6px;
+}
+.rating_list{
+	float: right;
+	width: auto;
+}
+.rating_list a{
+	display: inline-block;
+	color: #efce4a;
+}
+/*tags start*/
+.tags{
+	float: left;
+	width: 100%;
+}
+.tags li{
+	float: left;
+	width: auto;
+	margin-right: 10px;
+	margin-bottom: 15px;
+}
+.tags li:nth-child(6),
+.tags li:nth-child(3){
+	margin-right: 0px;
+}
+.tags li:nth-child(7){
+	margin-bottom: 5px;
+}
+.tags li a{
+	display: inline-block;
+	padding:4px 12px;
+	font-size: 15px;
+	color:#777;
+	background-color: #e5e5e5;
+}
+.tags li a:hover{
+	color:#fff;
+}
+/*Event Css*/
+.keo_sidebar_event{
+	float: left;
+	width: 100%;
+}
+.keo_sidebar_event>img{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.keo_sidebar_event>h5{
+	font-size: 18px;
+}
+.keo_sidebar_event>h5>a{
+
+}
+.keo_sidebar_event>span{
+	font-size: 15px;
+}
+.keo_sidebar_event>span>i{
+	margin-right: 10px;
+}
